@@ -1,0 +1,133 @@
+#corner {
+
+    border-radius: 40px 80px;
+    background: rgb(82, 138, 138);
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+
+}
+
+#comment:Hover {
+    width: 150px;
+}
+
+#comment {
+    width: 80px;
+    height: 40px;
+    background: red;
+    -webkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    position: relative;
+    transition: width 2s;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: 1px 1px 3px #FF0000;
+
+}
+
+#button {
+    background-color: red;
+    border: 2px;
+    color: white;
+    text-align: center;
+    text-decoration: normal;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px, 2px;
+    cursor: pointer;
+}
+
+ul {
+    font-size: 24;
+    margin: 1;
+    padding: 2;
+    background: white;
+    color: firebrick;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: cadetblue;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 16px 20px;
+    display: inline-block;
+}
+
+ul li a:hover {
+    background: green;
+    color: white;
+}
+
+.dropdw-content {
+    width: 114px;
+    display: none;
+    position: absolute;
+}
+
+.dropdw-content a {
+    display: block;
+    background: grey;
+    color: navy;
+}
+
+.dropdw-content a:hover {
+    background: blue;
+    color: aliceblue;
+}
+
+.dropdown:hover .dropdw-content {
+    display: block;
+}
+
+.content {
+    width: 130px;
+    display: none;
+    position: absolute;
+
+}
+
+.content a {
+    background: grey;
+    color: navy;
+    display: block;
+}
+
+.content :hover {
+    background: blue;
+    color: white;
+
+}
+
+.payment:hover .content {
+    display: block;
+}
+
+.abnext {
+    width: auto;
+    display: none;
+    position: absolute;
+
+}
+
+.abnext a {
+    background: grey;
+    color: navy;
+    display: block;
+
+}
+
+.abnext a:hover {
+    background: blue;
+    color: white;
+}
+
+.about:hover .abnext {
+    display: block;
+}
